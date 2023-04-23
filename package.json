@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/html-validator": "^1.2.5",
     "@types/node": "^18",
     "nuxt": "^3.4.2"
   }
