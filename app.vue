@@ -1,5 +1,5 @@
 <template>
-  <div>Nuxt app</div>
+  <div class="app">Nuxt app</div>
 </template>
 
 <script lang="ts" setup>
@@ -8,3 +8,9 @@ useHead({
   htmlAttrs: { lang: 'en' },
 })
 </script>
+
+<style lang="postcss">
+.app {
+  @apply p-4 text-primary font-bold;
+}
+</style>
