@@ -1,5 +1,6 @@
 <template>
   <div class="app">Nuxt app</div>
+  <Icon name="home" />
 </template>
 
 <script lang="ts" setup>
