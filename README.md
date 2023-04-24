@@ -1,42 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starter
+A simple nuxt 3 starter template with development features.\
+The project uses 🐈‍⬛ [Yarn Package Manager](https://yarnpkg.com/).
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Features
+🍍 [Pinia](https://pinia.vuejs.org/) \
+🚀 [VueUse](https://vueuse.org/) \
+🌊 [Tailwind](https://tailwindcss.nuxtjs.org/) \
+🎨 [Vite SVG loader](https://github.com/jpkleemans/vite-svg-loader) \
+⚡ [Vitest](https://vitest.dev/) \
+✅ [Html Validator](https://html-validator.nuxtjs.org/) \
+💜 [Eslint](https://eslint.org/) \
+🐶 [Husky Precommit](https://github.com/typicode/husky)
