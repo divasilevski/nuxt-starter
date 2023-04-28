@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
   imports: {
-    dirs: ['./store'],
+    dirs: ['./stores'],
   },
   vite: {
     plugins: [svgLoader({ defaultImport: 'component' })],
