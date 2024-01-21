@@ -5,8 +5,5 @@ export default function (initValue = 0) {
     counter.value++
   }
 
-  return {
-    counter,
-    increase,
-  }
+  return { counter, increase }
 }

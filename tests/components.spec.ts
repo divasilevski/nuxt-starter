@@ -1,8 +1,8 @@
 import { mount } from '@vue/test-utils'
 
-import TestButton from '~/components/TestButton.vue'
+import TestButton from '@/components/Button.vue'
 
-describe('TestButton', async () => {
+describe('Button', async () => {
   const spyLog = vi.spyOn(global.console, 'log')
   const wrapper = mount(TestButton)
   await wrapper.get('button').trigger('click')

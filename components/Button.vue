@@ -1,5 +1,7 @@
 <template>
-  <button @click="clickHandler">Nuxt app test</button>
+  <button type="button" @click="clickHandler">
+    <slot />
+  </button>
 </template>
 
 <script lang="ts" setup>
@@ -11,3 +13,9 @@ const clickHandler = () => {
   isClicked.value = true
 }
 </script>
+
+<style lang="postcss" scoped>
+button {
+  @apply bg-sky-400 hover:bg-sky-500 text-white font-bold py-2 px-4 rounded;
+}
+</style>
