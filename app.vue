@@ -1,6 +1,10 @@
 <template>
-  <div class="app">Nuxt app</div>
-  <Icon name="home" />
+  <header>
+    <Icon name="home" />
+    <div class="index-page__title">Nuxt app</div>
+  </header>
+
+  <NuxtPage />
 </template>
 
 <script lang="ts" setup>
@@ -11,7 +15,19 @@ useHead({
 </script>
 
 <style lang="postcss">
-.app {
-  @apply p-4 text-primary font-bold;
+/* postcss + tailwind */
+body {
+  @apply container px-4;
+
+  header {
+    @apply flex gap-1 py-4 font-bold uppercase;
+  }
+}
+
+/* css */
+a {
+  width: fit-content;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 </style>
